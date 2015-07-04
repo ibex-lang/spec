@@ -10,16 +10,16 @@ line's indentation level.
 ```
 A                         |1
 B                         |1
-    C                 |2  |1
-    D                 |2  |1
-        E         |3  |2  |1
-    F                 |2  |1
+....C                 |2  |1
+....D                 |2  |1
+........E         |3  |2  |1
+....F                 |2  |1
 G                         |1
-    H                 |4  |1
-    I                 |4  |1
+....H                 |4  |1
+....I                 |4  |1
 ```
-<small>`E` belongs to block #3, `C` through `F` belong
-to block #2, `A` through `I` belong to block #1.</small>
+<sub>(`.` = whitespace), `E` belongs to block #3, `C` through `F` belong
+to block #2, `A` through `I` belong to block #1.</sub>
 
 A line with indentation level _x_ must be preceded by
 a line with an indentation level greater than or equal
